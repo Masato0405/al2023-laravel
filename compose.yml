@@ -1,6 +1,8 @@
 services:
   app:
     build: ./docker
+    volumes:
+      - ./app/:/var/www/html
     ports:
       - 8080:80
   db:
@@ -10,6 +12,6 @@ services:
     ports:
       - 3306:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=Gg62zWrT
-      - MYSQL_USER=laravel
-      - MYSQL_PASSWORD=nNi3RqmY
+      MYSQL_ROOT_PASSWORD: Gg62zWrT
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: nNi3RqmY
