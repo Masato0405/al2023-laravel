@@ -1,0 +1,22 @@
+2023-12-17 12:51:04,678 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-17 12:51:04,726 INFO supervisord started with pid 1
+2023-12-17 12:51:05,738 INFO spawned: 'nginx' with pid 7
+2023-12-17 12:51:05,741 INFO spawned: 'php-fpm' with pid 8
+2023-12-17 12:51:06,785 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-17 12:51:06,786 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-17 13:25:08,471 INFO reaped unknown pid 83 (exit status 0)
+2023-12-17 13:25:58,683 INFO reaped unknown pid 3566 (terminated by SIGKILL)
+2023-12-17 13:27:40,045 INFO reaped unknown pid 3567 (terminated by SIGKILL)
+2023-12-17 13:27:49,075 INFO reaped unknown pid 3568 (terminated by SIGKILL)
+2023-12-17 13:27:50,078 INFO reaped unknown pid 3569 (terminated by SIGKILL)
+2023-12-17 13:27:50,080 INFO reaped unknown pid 3565 (terminated by SIGKILL)
+2023-12-17 13:28:17,183 INFO reaped unknown pid 3575 (terminated by SIGKILL)
+2023-12-17 13:28:19,197 INFO reaped unknown pid 3576 (terminated by SIGKILL)
+2023-12-17 13:28:19,197 INFO reaped unknown pid 3577 (terminated by SIGKILL)
+2023-12-17 13:28:19,198 INFO reaped unknown pid 3574 (terminated by SIGKILL)
+2023-12-17 13:31:45,919 INFO reaped unknown pid 3583 (terminated by SIGKILL)
+2023-12-17 13:31:45,922 INFO reaped unknown pid 3582 (terminated by SIGKILL)
+2023-12-17 13:32:02,976 WARN received SIGTERM indicating exit request
+2023-12-17 13:32:02,978 INFO waiting for nginx, php-fpm to die
+2023-12-17 13:32:02,995 INFO stopped: php-fpm (exit status 0)
+2023-12-17 13:32:03,028 INFO stopped: nginx (exit status 0)
